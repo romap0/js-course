@@ -1,0 +1,17 @@
+{
+  "name": "js-course",
+  "version": "1.0.0",
+  "description": "Интерактивный базовый курс по JavaScript",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:lesson": "vitest run --reporter=verbose"
+  },
+  "keywords": ["javascript", "course", "learning"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^3.1.1"
+  }
+}
